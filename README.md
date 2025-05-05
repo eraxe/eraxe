@@ -1,18 +1,59 @@
-## About This Guy
+
 <img src="./image.svg" alt="Arash Abolhasani banner" />
-I mostly work on backend systems, scripts, and turning rough ideas into something real and useful. I’m into automation — especially when it saves time on repetitive tasks across dev, deployment, or day-to-day operations.
 
-I’ve worked with Django, REST APIs, shell scripting, and modular codebases, but I’m not married to any tool. If something better fits the task, I’ll pick it up and run with it. Tools change — solving the problem is what matters.
+## 👋 About This One...
 
-I’ve deployed projects using both Nginx and LiteSpeed Enterprise, usually with an eye on performance and keeping things light on the hardware. Security and reliability are always top of mind, especially when dealing with DDoS protection and locking down exposed surfaces.
+I mostly work on backend systems, scripts, and turning messy ideas into real, working tools.  
+Automation? Love it. Repetitive tasks? Not if I can help it.  
+Sometimes I build things the “wrong” way — and they end up working better that way.
 
-I've also worked with WordPress and WooCommerce when it made sense for the job. Wherever possible, I try to keep systems simple — not sloppy, just lean — without skipping the important stuff. And even though I’m mostly on the backend, I still care about how things look and feel. A clean UI, smooth UX, and the occasional visual flair can go a long way.
+---
 
-I tend to work a bit off-script — not everything I write starts with a perfect plan. But in the mess, there’s often something unexpected that works better than the “by-the-book” approach. That flexibility has been surprisingly useful.
+## 🛠️ What I work with
 
-I’m comfortable working with a team, managing a small one, or just quietly scripting behind the scenes to keep things running smoother.
+- **Languages**: Python, JavaScript, PHP, Shell
+- **Frameworks**: Django, Angular, REST APIs
+- **Dev Tools**: VS Code, IntelliJ, tmux, Git
+- **Infra**: Linux, Nginx, LiteSpeed Enterprise, WordPress, WooCommerce
 
-Stack & Interests:
-Python, Django, JS, Angular, PHP, Shell, Linux, REST, VS Code, IntelliJ
-Server config, app hardening, modular code, readability, performance
-Open source, lightweight deployments, creative problem solving, and building fun stuff from scratch
+---
+
+## ⚙️ What I care about
+
+- Keeping systems lean, fast, and secure  
+- Modular code that’s actually readable  
+- UI/UX that feels good (yes, backend people can care too)  
+- Small tools that solve real problems  
+- Automation that gives me time back  
+- Clean code? Sometimes. Clean solutions? Always.
+
+---
+
+<details>
+<summary>💬 Random facts</summary>
+
+- Not the most organized coder — and that’s part of the magic  
+- I like eye candy in terminal themes and websites alike  
+- Half my commits probably started with “wait... what if I just”  
+- Most fun: taking weird ideas and making them work
+</details>
+
+---
+
+## 📦 Projects
+
+I build things that are useful, fun, or both.  
+Check out the pinned repos or [explore everything →](https://github.com/eraxe?tab=repositories)
+
+---
+
+## 🧠 Currently into...
+
+`modular tooling` • `low-dependency workflows` • `custom CLIs` • `fun themes` • `clean configs` • `hardening servers` • `building from scratch`
+
+---
+
+## 📫 Reach me
+
+Want to connect or collaborate? Feel free to reach out via issues or email (in profile).
+
