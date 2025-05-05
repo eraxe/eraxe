@@ -1,0 +1,77 @@
+<svg viewBox="0 0 800 300" xmlns="http://www.w3.org/2000/svg" style="background:#0f0c29;font-family:'Orbitron',sans-serif" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <defs>
+    <linearGradient id="sunGradient" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#ff00cc"/>
+      <stop offset="100%" stop-color="#ffcc00"/>
+    </linearGradient>
+
+    <linearGradient id="textGradient" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#00f0ff"/>
+      <stop offset="100%" stop-color="#ff00cc"/>
+    </linearGradient>
+
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="3.5" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <filter id="glitch">
+      <feTurbulence type="fractalNoise" baseFrequency="0.02" numOctaves="1" result="turb"/>
+      <feDisplacementMap in="SourceGraphic" in2="turb" scale="5" xChannelSelector="R" yChannelSelector="G"/>
+    </filter>
+  </defs>
+
+  <!-- Synthwave Sun (higher position) -->
+  <circle cx="400" cy="70" r="60" fill="url(#sunGradient)" opacity="0.9"/>
+  <!-- Scanlines on Sun -->
+  <g stroke="#0f0c29" stroke-width="5">
+    <line x1="340" y1="50" x2="460" y2="50"/>
+    <line x1="340" y1="70" x2="460" y2="70"/>
+    <line x1="340" y1="90" x2="460" y2="90"/>
+  </g>
+
+  <!-- Mountains (parallax layers) -->
+  <path d="M0 160 L100 120 L180 150 L250 100 L400 160 L500 90 L650 150 L800 120 L800 250 L0 250 Z" fill="#220033" opacity="0.5"/>
+  <path d="M0 180 L120 140 L220 160 L300 130 L420 170 L560 120 L700 160 L800 140 L800 250 L0 250 Z" fill="#330044" opacity="0.3"/>
+
+  <!-- Grid -->
+  <g stroke="#00f0ff" stroke-opacity="0.2">
+    <path d="M0 200 L800 200"/>
+    <path d="M0 220 L800 220"/>
+    <path d="M0 240 L800 240"/>
+    <path d="M0 260 L800 260"/>
+    <path d="M0 280 L800 280"/>
+    <path d="M100 200 L200 250"/>
+    <path d="M200 200 L300 250"/>
+    <path d="M300 200 L400 250"/>
+    <path d="M400 200 L500 250"/>
+    <path d="M500 200 L600 250"/>
+    <path d="M600 200 L700 250"/>
+    <path d="M700 200 L800 250"/>
+  </g>
+
+  <!-- Name -->
+  <text x="50%" y="180" text-anchor="middle" font-size="42" fill="url(#textGradient)" filter="url(#glow)">
+    Arash Abolhasani (Eraxe)
+    <animate attributeName="opacity" values="1;0.9;1" dur="3s" repeatCount="indefinite"/>
+  </text>
+
+  <!-- About -->
+  <text x="50%" y="215" text-anchor="middle" font-size="17" fill="#ffffffcc" style="font-family:'Courier New', monospace;">
+    20+ yrs Dev &amp; Cybersec | PHP • Linux • Python • JS • Shell
+    <animate attributeName="opacity" values="0.9;1;0.9" dur="4s" repeatCount="indefinite"/>
+  </text>
+
+  <!-- Tagline -->
+  <text x="50%" y="240" text-anchor="middle" font-size="14" fill="#ff00cc" style="font-family:'Courier New', monospace;">
+    [ arch + kde user | Noob behind the shell | Mostly Fun Stuff ]
+  </text>
+
+  <!-- Glitch Overlay -->
+  <text x="50%" y="180" text-anchor="middle" font-size="42" fill="#ff00cc" opacity="0.2" filter="url(#glitch)">
+    Arash Abolhasani (Eraxe)
+  </text>
+</svg>
